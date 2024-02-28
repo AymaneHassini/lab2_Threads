@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <pthread.h>
 
-// Function to be executed by the thread
+// function to be executed by the thread
 void *thread_function(void *arg) {
     printf("Inside the thread\n"); // print message indicating thread execution
     pthread_exit(NULL); // exit
